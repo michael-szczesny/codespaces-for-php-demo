@@ -1,5 +1,7 @@
 <?php
 
+namespace Ub;
+
 class Test
 {
 	public int $age;
