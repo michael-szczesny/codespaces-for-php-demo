@@ -2,16 +2,10 @@
 
 namespace Ub;
 
-class Test
-{
-	public int $age;
-	public string $name;
+class Test {
 
 	public function __construct(
-		int $age = 18,
-		string $name = 'John'
-	) {
-		$this->age = $age;
-		$this->name = $name;
-	}
+		public int $age = 18,
+		public string $name = 'John'
+	) {	}
 }
